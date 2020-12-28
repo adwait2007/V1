@@ -9,6 +9,7 @@ happyDog = loadImage("images/dogImg1.png");
 
 function setup() {
   database = firebase.database();
+	
 	createCanvas(500, 500);
 var dog = createSprite(250,300,150,150);
  dog.addImage(dogImg);
